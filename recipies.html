@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <script type="text/javascript">
+      const card = document.querySelector('.card');
+
+      card.addEventListener('hover', function () {
+        // card.setAttribute('background-color', 'green');
+        console.log('I am hovering over a card');
+      });
+  </script>
+  <body>
+
+    <div class="page">
+      <div class="headding">
+        <p class="page-title"> Good Eats </p>
+        <p class="page-subtitle"> home for all your good eating recipies </p>
+      </div>
+      <div class="card">
+        <a href="https://www.deliaonline.com/recipes/international/european/italian/almond-biscotti" target="_blank">
+          <img src="https://www.deliaonline.com/sites/default/files/styles/square_400/public/quick_media/cakes-almond-biscotti.jpg" alt="" class="thumb">
+          <div class="title">
+            <p class="name">Italian Almond Biscotti</p>
+            <div class="blurb">
+              <p>Italian Almond Biscotti double baked</p>
+            </div>
+            <p class="link">
+              <a href="#">Click for full guide</a>
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="https://pinchofyum.com/protein-pancakes" target="_blank">
+          <img src="https://pinchofyum.com/wp-content/uploads/Protein-Pancakes-3.jpg" alt="" class="thumb">
+          <div class="title">
+            <p class="name">Protien Pancakes</p>
+            <div class="blurb">
+              <p>No refined grains, No refined sugar, and Loads of healthy proteins</p>
+            </div>
+            <p class="link">
+              <a href="#">Click for full guide</a>
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="https://amyshealthybaking.com/blog/2020/04/29/the-ultimate-healthy-cinnamon-rolls-updated-teaser/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+foodsforthesoul+%28Amy%27s+Healthy+Baking%29" target="_blank">
+          <img src="https://amyshealthybaking.com/wp-content/uploads/2020/04/ultimate-healthy-cinnamon-rolls-updated-8605.jpg" alt="" class="thumb">
+          <div class="title">
+            <p class="name">Ultimate Healthy Cinnamon Rolls</p>
+            <div class="blurb">
+              <p>They’re fluffy, moist, have a sweet and irresistible cinnamon filling</p>
+            </div>
+            <p class="link">
+              <a href="#">Click for full guide</a>
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="https://pinchofyum.com/protein-pancakes" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg" alt="" class="thumb">
+          <div class="title">
+            <p class="name">Italian Style Pizza</p>
+            <div class="blurb">
+              <p>Italian Style Cheese Pizza home made from scratch</p>
+            </div>
+            <p class="link">
+              <a href="#">Click for full guide</a>
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg" alt="" class="thumb">
+          <div class="title">
+            <p class="name">Italian Style Pizza</p>
+            <div class="blurb">
+              <p>Italian Style Cheese Pizza home made from scratch</p>
+            </div>
+            <p class="link">
+              <a href="#">Click for full guide</a>
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg" alt="" class="thumb">
+          <div class="title">
+            <p class="name">Italian Style Pizza</p>
+            <div class="blurb">
+              <p>Italian Style Cheese Pizza home made from scratch</p>
+            </div>
+            <p class="link">
+              <a href="#">Click for full guide</a>
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+  </body>
+
+  <style>
+    .headding {
+      height: 200px;
+      width: 100%;
+      border: 1px solid black;
+      text-align: center;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    .page-title { font-size: 150%; }
+    .page {
+      margin: 0 10%;
+      height: 100vh;
+    }
+    .card {
+      /* position: relative; */
+      width: 70%;
+      height: 250px;
+      /* margin-top: 30px; */
+      /* margin-left: 120px; */
+      margin: 5% 15%;
+      border: 2px solid black;
+      border-radius: 5px;
+      background-color: rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+    .card:hover {
+      box-shadow: 10px 10px 5px #aaaaaa;
+      transform: scale(1.02);
+      background-color: rgba(0,0,0,0.2);
+    }
+    .thumb {
+      width: 40%;
+      max-height: 100%;
+      object-fit: none;
+      float: left;
+
+    }
+    .title { text-align: center; }
+    .name {
+      font-weight: bold;
+      font-size: 130%;
+    }
+    .link {
+      font-size: 80%;
+      text-align: right;
+      margin-top: 150px;
+      margin-right: 20px;
+    }
+  </style>
+
+
+</html>
