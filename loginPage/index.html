@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <section class="screen1">
+      <div class="login">
+        <div class="login__select">
+          <div class="login__select--student">Student</div>
+          <div class="login__select--teacher">Teacher</div>
+          <div class="login__select--parent">Parent</div>
+        </div>
+        <div class="login__school">
+          <div class="login__school--state">State: <input type="text" name="login__school--state" value="" class="login__school--state--input"></div>
+          <div class="login__school--district">District: <input type="text" name="login__school--district" value="" class="login__school--district--input"></div>
+        </div>
+      </div>
+    </section>
+    <section class="screen2">
+      <div class="">
+
+      </div>
+    </section>
+    <section class="screen3">
+      <div class="">
+
+      </div>
+    </section>
+  </body>
+  <style media="screen">
+    body {
+      font-size: 10px;
+    }
+    .login {
+      margin-left: 35rem;
+      margin-right: 35rem;
+      margin-top: 2rem;
+      height: 50rem;
+      background-color: lightblue;
+    }
+    .login__select div{
+      background-color: lightgrey;
+      float: left;
+      padding: 7rem 3rem 7rem 3rem;
+      border: 0.2rem solid black;
+      margin: 1.5rem;
+      margin-top: 10rem;
+      <!-- position: relative; -->
+    }
+    .login__school--state {margin-top: 10rem;}
+    .login__school div input{
+      margin-top: 5rem;
+      width: 60%;
+      padding-left: 5rem;
+    }
+  </style>
+</html>
